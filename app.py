@@ -8,6 +8,7 @@ data = pd.read_excel('./data/eje.xlsx', engine='openpyxl')
 dataa = pd.read_excel('./data/com.xlsx', engine='openpyxl')
 
 app = Dash(external_stylesheets=[dbc.themes.CERULEAN])
+server = app.server
 
 # Barra principal
 navbar = dbc.NavbarSimple(
