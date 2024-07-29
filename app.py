@@ -168,5 +168,6 @@ app.layout = html.Div([
     ], style={'position': 'fixed', 'bottom': 0, 'width': '100%', 'backgroundColor': '#f8f9fa', 'textAlign': 'center'})
 ])
 
+
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
