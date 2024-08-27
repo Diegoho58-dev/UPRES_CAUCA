@@ -11,7 +11,7 @@ app = Dash(external_stylesheets=[dbc.themes.CERULEAN])
 server = app.server
 # Barra principal
 navbar = dbc.NavbarSimple(
-    brand='Analisis De Datos - Upres Cauca - actualizado a 22 de julio de 2024',
+    brand='Analisis De Datos - Upres Cauca - actualizado a 26 de Agosto de 2024',
     brand_style={'marginLeft': 10, 'fontFamily': 'Helvetica'},
     children=[
         html.A('Data Source', href='#', target='_blank')
